@@ -1,5 +1,5 @@
 <?php
-include __DIR__.'/classes/Movie.php';
+require_once __DIR__.'/classes/Movie.php';
 
 $utente = new Movie("Luca", "Valle");
 
@@ -24,7 +24,6 @@ $Classe = $utente->getClasse();
     <div>
         <h2><?php echo $NomeCognome; ?></h2>
         <p>Nell'anno: <?php echo $Data; ?>, nella classe <?php echo $Classe; ?></p>
-        
     </div>
 
 </body>

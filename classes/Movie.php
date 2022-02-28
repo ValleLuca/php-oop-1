@@ -16,9 +16,9 @@ class Movie {
         return "{$this->nome} {$this->cognome}";
     }
     public function getData() {
-        return "{$this->data}";
+        return "$this->data";
     }
     public function getClasse() {
-        return "{$this->classe}";
+        return "$this->classe";
     }
 }
